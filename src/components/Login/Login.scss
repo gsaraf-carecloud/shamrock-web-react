@@ -1,12 +1,12 @@
-.counter {
+.login {
   font-weight: bold;
 }
 
-.counter--green {
-  composes: counter;
+.login--green {
+  composes: login;
   color: rgb(25,200,25);
 }
 
-.counterContainer {
+.loginContainer {
   margin: 1em auto;
 }
