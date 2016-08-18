@@ -4,11 +4,11 @@ import classes from './HomeView.scss'
 
 export const HomeView = () => (
   <div>
-    <h4>Welcome!</h4>
-    <img
-      alt='This is a duck, because Redux!'
-      className={classes.duck}
-      src={DuckImage} />
+    <h4>Select your language!</h4>
+    <ul>
+      <li><a>English</a></li>
+      <li><a>Español</a></li>
+    </ul>
   </div>
 )
 
